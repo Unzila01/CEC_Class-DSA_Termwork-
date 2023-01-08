@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     int a[size], n;
-    cout<<"Enter the number of elements: "<<endl;
+    cout<<"Enter the number of elements: ";
     cin>>n;
 
-    cout<<"Enter the elements in the array: "<<endl;
+    cout<<"Enter the elements in the array: ";
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
