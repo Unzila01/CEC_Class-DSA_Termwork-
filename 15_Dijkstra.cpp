@@ -47,7 +47,6 @@ int main()
     cin>>m;
 
     vector<vector<int>> adj[n];
-    vector<vector<int>> edges;
     cout<<"Enter the Edges with Weight: "<<endl;
     for(int i=0;i<m;i++)
     {
